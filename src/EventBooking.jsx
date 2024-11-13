@@ -1,6 +1,7 @@
 // EventBooking.js
 import React, { useState, useEffect, useMemo } from 'react';
 import { useAuth } from './AuthContext';
+// import eventData from './data.json'
 
 
 const EventBooking = () => {
@@ -14,7 +15,7 @@ const EventBooking = () => {
   const { isLoggedIn, login } = useAuth();
 
   useEffect(() => {
-    fetch('/data.json') // Load JSON data here
+    fetch('Data/data.json') // Load JSON data here
       .then(response => response.json())
       .then(data => {
         setEvents(data);
