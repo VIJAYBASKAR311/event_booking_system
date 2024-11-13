@@ -14,7 +14,7 @@ const EventBooking = () => {
   const { isLoggedIn, login } = useAuth();
 
   useEffect(() => {
-    fetch('public/data.json') // Load JSON data here
+    fetch('/data.json') // Load JSON data here
       .then(response => response.json())
       .then(data => {
         setEvents(data);
