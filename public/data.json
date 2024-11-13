@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Concert Night",
+      "description": "An amazing night with live performances.",
+      "category": "Music",
+      "date": "2024-12-01",
+      "availableSeats": 50,
+      "price": 100
+    },
+    {
+      "id": 2,
+      "title": "Tech Conference",
+      "description": "A gathering of technology enthusiasts and professionals.",
+      "category": "Conference",
+      "date": "2024-11-20",
+      "availableSeats": 100,
+      "price": 150
+    }
+    
+  ]
