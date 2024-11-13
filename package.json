@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://VIJAYBASKAR311.github.io/event_booking_systemevent_booking_system",
+  "homepage": "https://VIJAYBASKAR311.github.io/event_booking_system",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
